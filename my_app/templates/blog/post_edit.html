@@ -1,0 +1,14 @@
+
+<html>
+ <head>
+ 	<title>Редактируем записи в Assortment</title>
+ </head>
+ <body>
+ 	<h1>Новая запись в Assortment</h1>
+   <form method="Assortment" class="Assortment-form">{%csrf_token %}
+	 {{ form.as_p }}
+          
+ 	<button type="submit">Save</button>
+ 	</form>
+   </body>
+</html>
